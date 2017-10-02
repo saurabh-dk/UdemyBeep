@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {Component} from '@angular/core';
+import {IonicPage, NavController, NavParams} from 'ionic-angular';
 
 /**
  * Generated class for the TabsPage page.
@@ -20,9 +20,9 @@ export class TabsPage {
   tab3Root: string;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    this.tab1Root= 'InboxPage';
-    this.tab2Root= 'ChannelsPage';
-    this.tab3Root= 'ProfilePage';
+    this.tab1Root = 'InboxPage';
+    this.tab2Root = 'ChannelsPage';
+    this.tab3Root = 'ProfilePage';
   }
 
 }
